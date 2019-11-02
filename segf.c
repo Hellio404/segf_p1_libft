@@ -6,7 +6,7 @@
 /*   By: yfarini <yfarini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/20 19:19:54 by yfarini           #+#    #+#             */
-/*   Updated: 2019/10/21 22:47:30 by yfarini          ###   ########.fr       */
+/*   Updated: 2019/11/01 23:14:00 by ybarhdad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -165,4 +165,5 @@ int main()
 	TESTER(strnstr("NULLO",NULL,3);)
 	TESTER(strnstr(NULL,"NULLO",3);)
 	TESTER(strnstr("NULLO","NULL",3);)
+	TESTER(strnstr(NULL,"",3);)
 }
